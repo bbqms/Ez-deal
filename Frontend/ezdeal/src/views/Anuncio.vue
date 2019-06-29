@@ -73,7 +73,7 @@
       <v-data-table :headers="headers" :items="anuncios" :search="search" class="elevation-1">
         <template slot="items" slot-scope="props">
           <td>
-            <v-btn color="success">Solicitar</v-btn>
+            <v-btn color="success" @click="solicitar">Solicitar</v-btn>
           </td>
           <td>{{ props.item.titulo }}</td>
           <td>{{ props.item.descripcion }}</td>
@@ -90,6 +90,48 @@
           <v-btn color="primary" @click="listar">Resetear</v-btn>
         </template>
       </v-data-table>
+
+      <v-dialog v-model="stateSoli" max-width="500px">
+        <v-card>
+          <v-card-title>
+            <span class="headline" style="margin:auto">Solicitud</span>
+          </v-card-title>
+
+          <v-card-text>
+            <v-container grid-list-md>
+              <v-layout wrap>
+                <v-flex xs12 sm12 md12>
+                  <v-text-field v-model="mensaje" label="Mensaje"></v-text-field>
+                </v-flex>
+                <v-flex xs12 sm12 md12>
+                  <v-select
+                    v-model="clienteId"
+                    :items="usuarios"
+                    item-value="id"
+                    item-text="nombre"
+                    label="Cliente"
+                  ></v-select>
+                </v-flex>
+                 <v-flex xs12 sm12 md12>
+                  <v-select
+                    v-model="anuncioId"
+                    :items="anuncios"
+                    item-value="id"
+                    item-text="titulo"
+                    label="Anuncio"
+                  ></v-select>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-card-text>
+
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn color="blue darken-1" flat @click.native="close2">Cancelar</v-btn>
+            <v-btn color="blue darken-1" flat @click.native="enviar">Enviar</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
     </v-container>
   </div>
 </template>
@@ -99,6 +141,7 @@ import axios from "axios";
 export default {
   data() {
     return {
+      stateSoli:false,
       items: [{ text: "Si", value: "true" }, { text: "No", value: "false" }],
       anuncios: [],
       usuarios: [],
@@ -141,7 +184,14 @@ export default {
       anuncianteID: "",
       anuncianteNombre: "",
       servicioId: "",
-      servicioNombre: ""
+      servicioNombre: "",
+
+
+      mensaje:"",
+      aprobacion:0,
+      estado:1,
+      clienteId:"",
+      anuncioId:"",
     };
   },
 
@@ -189,6 +239,12 @@ export default {
     close() {
       this.dialog = false;
     },
+    close2() {
+      this.stateSoli = false;
+    },
+    solicitar(){
+      this.stateSoli = true;
+    },
     limpiar() {
       this.id = "";
       this.titulo = "";
@@ -224,6 +280,27 @@ export default {
           me.close();
           me.listar();
           me.limpiar();
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
+    },
+      enviar() {
+      //Código para guardar
+      let me = this;
+      axios
+        .post("api/solicitud", {
+          mensaje: me.mensaje,
+          estado: me.estado,
+          aprobacion: me.aprobacion,
+           anuncioId: me.anuncioId,
+          clienteId: me.clienteId,
+         
+        })
+        .then(function(response) {
+          me.close2();
+          me.listar();
+
         })
         .catch(function(error) {
           console.log(error);

@@ -5,6 +5,7 @@ import Anuncio from './views/Anuncio.vue'
 import Usuario from './views/Usuario.vue'
 import Registro from './views/Registro.vue'
 import Solicitud from './views/Solicitud.vue'
+import Login from './views/Login.vue'
 
 Vue.use(Router)
 
@@ -13,11 +14,6 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
     {
       path: '/about',
       name: 'about',
@@ -45,6 +41,11 @@ export default new Router({
       path: '/solicitud',
       name: 'solicitud',
       component: Solicitud
+    },
+    {
+      path: '/',
+      name: 'login',
+      component: Login
     },
   ]
 })

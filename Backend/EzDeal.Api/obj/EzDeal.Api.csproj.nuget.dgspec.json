@@ -1,38 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\ezdeal.api\\EzDeal.Api.csproj": {}
+    "E:\\new\\backend\\ezdeal.api\\EzDeal.Api.csproj": {}
   },
   "projects": {
-    "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\ezdeal.api\\EzDeal.Api.csproj": {
+    "E:\\new\\backend\\ezdeal.api\\EzDeal.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\ezdeal.api\\EzDeal.Api.csproj",
+        "projectUniqueName": "E:\\new\\backend\\ezdeal.api\\EzDeal.Api.csproj",
         "projectName": "EzDeal.Api",
-        "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\ezdeal.api\\EzDeal.Api.csproj",
+        "projectPath": "E:\\new\\backend\\ezdeal.api\\EzDeal.Api.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\ezdeal.api\\obj\\",
+        "outputPath": "E:\\new\\backend\\ezdeal.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-                "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
+              "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+                "projectPath": "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
               },
-              "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj": {
-                "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj"
+              "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj": {
+                "projectPath": "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj"
               }
             }
           }
@@ -76,25 +78,27 @@
         }
       }
     },
-    "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+    "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj",
+        "projectUniqueName": "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj",
         "projectName": "EzDeal.Domain",
-        "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj",
+        "projectPath": "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\obj\\",
+        "outputPath": "E:\\new\\backend\\EzDeal.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,32 +130,34 @@
         }
       }
     },
-    "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj": {
+    "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj",
+        "projectUniqueName": "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj",
         "projectName": "EzDeal.Repository",
-        "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj",
+        "projectPath": "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\obj\\",
+        "outputPath": "E:\\new\\backend\\EzDeal.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-                "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
+              "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+                "projectPath": "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
               }
             }
           }
@@ -184,35 +190,37 @@
         }
       }
     },
-    "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj": {
+    "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj",
+        "projectUniqueName": "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj",
         "projectName": "EzDeal.Service",
-        "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj",
+        "projectPath": "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj",
         "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-        "outputPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\obj\\",
+        "outputPath": "E:\\new\\backend\\EzDeal.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-                "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
+              "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+                "projectPath": "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
               },
-              "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj": {
-                "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj"
+              "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj": {
+                "projectPath": "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj"
               }
             }
           }

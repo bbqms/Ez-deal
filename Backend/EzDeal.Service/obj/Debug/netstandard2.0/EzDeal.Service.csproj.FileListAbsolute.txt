@@ -96,3 +96,17 @@ E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Service\obj\
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.deps.json
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.dll
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Service.pdb
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\new\backend\EzDeal.Service\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csprojAssemblyReference.cache
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CoreCompileInputs.cache
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfoInputs.cache
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.AssemblyInfo.cs
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.csproj.CopyComplete
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.dll
+E:\new\backend\EzDeal.Service\obj\Debug\netstandard2.0\EzDeal.Service.pdb

@@ -61,3 +61,12 @@ E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Domain\obj\D
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfo.cs
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\new\backend\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.deps.json
+E:\new\backend\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\new\backend\EzDeal.Domain\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\new\backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csprojAssemblyReference.cache
+E:\new\backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.csproj.CoreCompileInputs.cache
+E:\new\backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfoInputs.cache
+E:\new\backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.AssemblyInfo.cs
+E:\new\backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\new\backend\EzDeal.Domain\obj\Debug\netstandard2.0\EzDeal.Domain.pdb

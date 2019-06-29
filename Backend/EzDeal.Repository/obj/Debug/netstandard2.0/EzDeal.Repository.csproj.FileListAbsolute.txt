@@ -82,3 +82,15 @@ E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Repository\o
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
 E:\Cosa de la U\Ciclo V\Aplicaciones Web\EzDealFinal\Backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\new\backend\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.deps.json
+E:\new\backend\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\new\backend\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Repository.pdb
+E:\new\backend\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.dll
+E:\new\backend\EzDeal.Repository\bin\Debug\netstandard2.0\EzDeal.Domain.pdb
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csprojAssemblyReference.cache
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CoreCompileInputs.cache
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfoInputs.cache
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.AssemblyInfo.cs
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.csproj.CopyComplete
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.dll
+E:\new\backend\EzDeal.Repository\obj\Debug\netstandard2.0\EzDeal.Repository.pdb

@@ -3110,32 +3110,34 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj",
+      "projectUniqueName": "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj",
       "projectName": "EzDeal.Service",
-      "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\EzDeal.Service.csproj",
+      "projectPath": "E:\\new\\backend\\EzDeal.Service\\EzDeal.Service.csproj",
       "packagesPath": "C:\\Users\\Bryan\\.nuget\\packages\\",
-      "outputPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Service\\obj\\",
+      "outputPath": "E:\\new\\backend\\EzDeal.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
-              "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
+            "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj": {
+              "projectPath": "E:\\new\\backend\\EzDeal.Domain\\EzDeal.Domain.csproj"
             },
-            "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj": {
-              "projectPath": "E:\\Cosa de la U\\Ciclo V\\Aplicaciones Web\\EzDealFinal\\Backend\\EzDeal.Repository\\EzDeal.Repository.csproj"
+            "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj": {
+              "projectPath": "E:\\new\\backend\\EzDeal.Repository\\EzDeal.Repository.csproj"
             }
           }
         }

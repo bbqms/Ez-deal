@@ -114,8 +114,8 @@ namespace EzDeal.Repository.Implementacion
             var Solicitud = new Solicitud();
             try
             {
-                Solicitud = context.Solicitudes.Single(x => x.Id == id);
-                context.Remove(Solicitud);
+                
+                context.Remove(context.Solicitudes.Single(x => x.Id == id));
                 context.SaveChanges();
             }
 

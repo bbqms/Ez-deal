@@ -1,6 +1,7 @@
 <template>
   <div>
     <v-container grid-list-xs>
+      <h1 class="titulo">Solicitudes</h1>
       <v-data-table :headers="headers" :items="solicitudes" :search="search" class="elevation-1">
         <template slot="items" slot-scope="props">
           <td>{{ props.item.mensaje }}</td>
@@ -19,6 +20,16 @@
     </v-container>
   </div>
 </template>
+
+<style>
+.titulo{
+  margin:auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+</style>
+
+
 
 <script>
 import axios from "axios";
@@ -97,7 +108,7 @@ export default {
 
     deleteItem(item){
       let me = this;
-      axios.delete('api/solicitud',{data:{id}})
+      axios.delete('api/solicitud/'+ item.id )
       .then(function(response) {
           me.listar();
         })
